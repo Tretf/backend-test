@@ -15,6 +15,8 @@ import static org.junit.jupiter.api.Assertions.*;
 // extends FunctionalTest наследуется от абстрактного класса FunctionalTest
 class HelloTest extends FunctionalTest{
 
+ /*  Для урока 3
+
     static Hello hello;
 
     // сгенерили BeforeClassMethod метод ПередВсем
@@ -55,12 +57,12 @@ class HelloTest extends FunctionalTest{
                 hello.divide(5,2);
         });
 
-        /* assertDoesNotThrow(new Executable() {       // было
+        *//* assertDoesNotThrow(new Executable() {       // было
             @Override
             public void execute() throws Throwable {
                 hello.divide(5,2);
             }
-        }); */
+        }); *//*
     }
     @Test
     @DisplayName("Тест на ошибку при делении на 0")
@@ -88,5 +90,5 @@ class HelloTest extends FunctionalTest{
         String resource = getStringResource("data.json");
         System.out.println(resource);
         assertTrue(!resource.isEmpty());        // ресурс не пустой
-    }
+    }*/
 }

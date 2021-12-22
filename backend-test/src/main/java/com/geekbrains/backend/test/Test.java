@@ -1,6 +1,10 @@
 package com.geekbrains.backend.test;
 
+
 public class Test {
+
+
+    // Для урока № 4
 
     public static void main (String[] args) {
 
@@ -14,5 +18,8 @@ public class Test {
                 .setEmail("iii@ii.com")
                 .build();
     }
+
+
+
 
 }
